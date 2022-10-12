@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
   <title>Document</title>
   <style type="text/css">
     p {
@@ -14,6 +17,7 @@
     body {
       margin: 0;
       background-color: #cccccc;
+      font-family: 'Roboto', sans-serif;
 
     }
 
@@ -55,6 +59,24 @@
       margin: auto;
 
     }
+    .primary-text{
+      font-size:16px;
+      color: #283948;
+      font-weight: 600;
+      line-height: 28px;
+    }
+    .secondary-text{
+      font-size:14px; 
+      font-weight: 400;
+      line-height: 24px;
+      color: #576574;
+    }
+    .product-text{
+      font-size: 12px;
+      line-height: 20px;
+      color: #576574;
+      font-weight: 400;
+    }
     
     @media all and (max-width:599px){
       .good-read-content-rows .row-col {
@@ -87,7 +109,7 @@
                   style="color: #466BF2; font-weight:600; text-align: center;max-width: 70px;max-height:31px;margin: 0 auto; padding-top: 32px;">
                   <tr>
                     <td style="padding:10px">
-                      ToolJet
+                      <img width="100%" src="https://uploads-ssl.webflow.com/6266634263b9179f76b2236e/62666392f32677b5cb2fb84b_logo.svg" alt="ToolJet logo">
                     </td>
                   </tr>
                 </table>
@@ -98,7 +120,9 @@
                       <table style="width: 100%">
                         <tr>
                           <td
-                            style="display: block; font-size: 24px;height: 58px; padding: 16px 10px 8px 10px;text-align: center;">
+                            style="display: block;height: 58px; padding: 16px 10px 8px 10px;text-align: center;font-family: 'Merriweather', serif;"
+                            class="primary-text"  
+                          >
                             Some name for the newsletter
                           </td>
                           <td style="font-size: 0;display: block;max-width: 153.31px;margin:0 auto ">
@@ -122,8 +146,10 @@
           <table class="introduction-row1" width="100%" style="padding:24px 56px 34px 56px">
             <tr>
               <td style="width: 488px; margin: 0 auto;">
-                <h2 style="font-size:16px; padding: 40px 0 18px 0;">Hello Joe,</h2>
-                <p style="font-size:14px; font-weight: 400;line-height: 24px;">Hey everyone! This is our very first
+                <h2 style=" padding: 40px 0 18px 0;" class="primary-text">
+                  Hello Joe,
+                </h2>
+                <p class="secondary-text">Hey everyone! This is our very first
                   edition of the Tooljet Product Updates Newsletter. We are quite
                   excited to loop you, into everything that’s going on around here. Right from product updates, to the
                   events we are hosting & participating in, our tutorials and blogs, everything that’s going on within
@@ -142,7 +168,7 @@
           </table>
           <table class="introduction-row3" width="100%" style="padding:24px 56px 34px 56px">
             <tr>
-              <td style="width: 488px; margin: 0 auto;font-size:14px; font-weight: 400;line-height: 24px;">
+              <td style="width: 488px; margin: 0 auto;" class="secondary-text">
                 <p style="padding:20px 0 31px 0">
                   According to Harvard Business Review, low-code/no-code platforms have evolved from just facilitating
                   function-specific tools to making it possible for a broader range of business employees to truly own
@@ -158,7 +184,7 @@
                     Write to us @ <a style="text-decoration: none;" href="mailto:hello@tooljet.io">hello@tooljet.io</a>
                   </span>
                 </p>
-                <p style="font-weight: 600; margin:0">
+                <p style="font-weight: 600; margin:0;color: #283948;">
                   Shubham, head of product
                 </p>
               </td>
@@ -193,8 +219,7 @@
                 <table class="buzz-header-col2"
                   style="float: right;margin: 40px 0 16px;vertical-align: top;">
                   <tr>
-                    <td style="font-size: 16px;line-height: 28px; font-weight: 400;color: #172531
-                    ;">Product updates</td>
+                    <td class="primary-text">Product updates</td>
                   </tr>
                 </table>
               </td>
@@ -220,8 +245,8 @@
                       <table class="row1-col2" style="display: inline-block;">
                         <tr>
                           <td style="width:371.83px">
-                            <span style="line-height:24px; font-size:14px; font-weight:600">Product update 1</span>
-                            <p style="line-height: 20px; font-size:12px;margin:0">Hey everyone! This is our very first
+                            <span class="primary-text">Product update 1</span>
+                            <p style="margin:0" class="product-text">Hey everyone! This is our very first
                               edition of the Tooljet Product Updates Newsletter. We are quite excited to loop you, into
                               everything that’s going on around here. We are quite excited to loop you</p>
                           </td>
@@ -246,8 +271,8 @@
                       <table class="row2-col2" style="display: inline-block;">
                         <tr>
                           <td style="width:371.83px">
-                            <span style="line-height:24px; font-size:14px; font-weight:600">Product update 2</span>
-                            <p style="line-height: 20px; font-size:12px;margin:0">Hey everyone! This is our very first
+                            <span class="primary-text">Product update 2</span>
+                            <p style="margin:0" class="product-text">Hey everyone! This is our very first
                               edition of the Tooljet Product Updates Newsletter. We are quite excited to loop you, into
                               everything that’s going on around here. We are quite excited to loop you</p>
                           </td>
@@ -273,8 +298,8 @@
                       <table class="row3-col2" style="display: inline-block;">
                         <tr>
                           <td style="width:371.83px">
-                            <span style="line-height:24px; font-size:14px; font-weight:600">Product update 3</span>
-                            <p style="line-height: 20px; font-size:12px;margin:0">Hey everyone! This is our very first
+                            <span class="primary-text">Product update 3</span>
+                            <p style="margin:0" class="product-text">Hey everyone! This is our very first
                               edition of the Tooljet Product Updates Newsletter. We are quite excited to loop you, into
                               everything that’s going on around here. We are quite excited to loop you</p>
                           </td>
@@ -324,7 +349,7 @@
                 <table class="row1">
                   <tr>
                     <td
-                      style="width: 488px;  padding: 0 170.26px  0 56px; font-size: 25px;line-height: 36px;font-weight: 600;">
+                      style="width: 488px;  padding: 0 170.26px  0 56px; font-size: 25px;line-height: 36px;font-weight: 600;color: #283948;">
                       Adding support for self-hosted Baserow, how awesome!
                     </td>
                   </tr>
@@ -332,7 +357,7 @@
                 <table class="row2">
                   <tr>
                     <td
-                      style="width: 488px;  padding: 13px 56px 0 56px;font-size: 14px;line-height: 24px;font-weight: 400;">
+                      style="width: 488px;  padding: 13px 56px 0 56px;" class="secondary-text">
                       While Baserow uses actual domain and API points, we’ve been able to add the feature of
                       localization to Baserow. Now we’ll be able to self-host if we do not want to use the cloud log-in.
                       We can connect Baserow with Tooljet deployment. It is possible to localize our Baserow
@@ -409,11 +434,11 @@
                       >
                         <tr>
                           <td style="padding:15.75px 38px 15.75px 30px ;">
-                            <span style="font-size:14px;line-height: 24px;font-weight: 600;">
+                            <span class="primary-text">
                               Build a Ticket Triaging App 
                               with Baserow and ToolJet
                             </span>
-                            <p style="font-size: 12px;font-weight:400;line-height:20px;margin:0">
+                            <p style="margin:0" class="secondary-text">
                               Let's learn how to build an internal ticket triaging by harnessing the power of Baserow for the backend and Tooljet at the frontend
                             </p>
                           </td>
@@ -446,10 +471,10 @@
                       >
                         <tr>
                           <td style="padding:15.75px 38px 15.75px 30px ;">
-                            <span style="font-size:14px;line-height: 24px;font-weight: 600;">
+                            <span class="primary-text">
                               Some of the best practices that we can follow as maintainers of open-source communities
                             </span>
-                            <p style="font-size: 12px;font-weight:400;line-height:20px;margin:0">
+                            <p style="margin:0" class="secondary-text">
                               Managing open source communities can get challenging especially when we have a flourishing one
                             </p>
                           </td>
@@ -482,10 +507,10 @@
                       >
                         <tr>
                           <td style="padding:15.75px 38px 15.75px 30px ;">
-                            <span style="font-size:14px;line-height: 24px;font-weight: 600;">
+                            <span class="primary-text">
                               The rise of citizen-developers
                             </span>
-                            <p style="font-size: 12px;font-weight:400;line-height:20px;margin:0">
+                            <p style="margin:0" class="secondary-text">
                               The demand for citizen developers is ever-increasing. Know the what, why, and how about the rise of citizen developers.
                             </p>
                           </td>
@@ -527,8 +552,7 @@
                 <table class="connect-header-col2"
                   style="float: right;margin: 45px 0 16px;vertical-align: top;">
                   <tr>
-                    <td style="font-size: 16px; font-weight: 400;color: #172531
-                    ;">
+                    <td class="primary-text">
                       <span>Community Calls</span>
                     </td>
                   </tr>
@@ -545,7 +569,7 @@
                       <table class="connect row1-col1" width="338" >
                         <tr>
                           <td>
-                            <span style="font-size:40px; line-height: 48px;font-weight: 700;">How to use JavaScript in ToolJet</span>
+                            <span style="font-size:40px; line-height: 48px;font-weight: 700;color: #172531;">How to use JavaScript in ToolJet</span>
                           </td>
                         </tr>
                       </table>
@@ -614,7 +638,7 @@
                                   </table>
                                   <table width="80%" style="float: right;">
                                     <tr>
-                                      <td style="font-size: 14px;line-height:18.2px;weight:500">
+                                      <td style="font-size: 14px;line-height:18.2px;weight:500;color: #000000;">
                                         <span>
                                           28th, September 2022
                                         </span>
@@ -663,7 +687,7 @@
                       <table>
                         <tr>
                           <td style="padding: 46px 72.4px">
-                            <p style="font-size: 14px; font-weight:400;line-height:24px;color: #576574;">
+                            <p class="secondary-text">
                               Not to worry if you’ve missed our previous community calls. We always share the recordings of our sessions just in case you’d like to go over it. 
                             </p>
                           </td>
@@ -740,15 +764,16 @@
               </td>
             </tr>
           </table>
-          <table class="milestone-content-rows" style="margin-top: 64px;" width="100%">
+          <table class="milestone-content-rows" style="margin-top: 64px;;" width="100%">
             <tr>
-              <td>
+              <td style="position: relative;">
                 <table class="milestone row-1" style="padding: 0 141.45px; text-align: center;">
                   <tr>
                     <td style="width: 317px;;margin:0 auto;display: block;">
-                      <h2 style="color: #4173FF;font-size: 100px;margin: 0;">12K</h2>
+                      <h2 style="color: #466BF2;font-size: 92px;margin: 0;font-family: 'Inter', sans-serif
+                      ;line-height: 90px;font-weight: 800;">14K</h2>
 
-                      <span style="font-size:40px;font-weight:700;line-height: 90px;">GitHub Stars</span>
+                      <span style="font-size:40px;font-weight:700;line-height: 44px;font-family: 'Inter', sans-serif">GitHub Stars</span>
                     </td>
                   </tr>
                 </table>
@@ -756,8 +781,18 @@
                   <tr>
                     <td>
                       <p style="font-weight:400;font-size:14px;line-height:24px;color:#576574">
-                        Every small achievement adds up to a bigger milestone for our community and us alike. This time around we have earned 13.3k stars on GitHub! Woohoo. We are humbled by the love and appreciation we are getting from all of our community members. We thank you all for being around :)
+                        Every small achievement adds up to a bigger milestone for our community and us alike. 
                       </p>
+                      <p style="font-weight:400;font-size:14px;line-height:24px;color:#576574;padding-top: 1rem;">
+                        This time around we have earned 13.3k stars on GitHub! Woohoo. We are humbled by the love and appreciation we are getting from all of our community members. We thank you all for being around :)
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table  class="milestone row-3" style="font-size: 0;">
+                  <tr>
+                    <td style="">
+                      <img width="100%" style="font-size: 0" src="https://via.placeholder.com/600x150/ffffff" alt="">
                     </td>
                   </tr>
                 </table>
@@ -821,7 +856,7 @@
                 </table>
                 <table class="footer row-4" width="100%">
                   <tr>
-                    <td style="padding:0 155.5px 32px; font-size: 14px; line-height: 24px; font-weight: 400;">
+                    <td style="padding:0 145.5px 32px; font-size: 14px; line-height: 24px; font-weight: 400;">
                       <span style="border-right: 1px solid #D9D9D9;padding-right: 14px;">Write to us</span>
                       <span style="border-right: 1px solid #D9D9D9;padding: 0 14px;">Privacy policy</span>
                       <span style="padding-left: 14px;">Unsubscribe</span>
